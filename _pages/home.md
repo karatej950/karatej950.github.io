@@ -18,14 +18,12 @@ action_btn:
 
 feature_rows:
   - title: "Books"
-    url: "https://unpwn.com"
+    url: "https://www.etsy.com/shop/ghostjazzbooks?ref=simple-shop-header-name&listing_id=876682124"
     img_path: "books.jpg"
     img_alt: "Apps"
-  - title: "Blog"
-    excerpt: "List of recent blogs.."
+  - title: ""
     url: "/blog/"
     img_path: "feature_rows/pexels-pixabay-blog.jpg"
-    img_alt: "Blog"
   - title: "TODO"
     excerpt: "TODO items."
     url: "/todo/"
