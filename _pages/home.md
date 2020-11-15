@@ -17,10 +17,9 @@ action_btn:
       fa_icon: "fas fa-arrow-down"
 
 feature_rows:
-  - title: "Apps"
-    excerpt: "List of apps."
-    url: "/apps/"
-    img_path: "feature_rows/pexels-torsten-dettlaff-apps.jpg"
+  - title: "Books"
+    url: "https://unpwn.com"
+    img_path: "books.jpg"
     img_alt: "Apps"
   - title: "Blog"
     excerpt: "List of recent blogs.."
