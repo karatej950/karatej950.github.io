@@ -5,55 +5,54 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-theme                    : #"lone-wolf-theme"
-remote_theme             : "manid2/lone-wolf-theme"
-bootswatch_theme         : "united" # cerulean, spacelab, united
+#theme                    : #"lone-wolf-theme"
+#remote_theme             : "manid2/lone-wolf-theme"
+#bootswatch_theme         : "united" # cerulean, spacelab, united
 
 # site Settings
 lang                     : "en_US"
 title                    : "Lone Wolf Theme"
 description              : "A simple bootstrap based jekyll theme."
 url                      : http://karatej950.github.io # the base hostname & protocol for your site
-baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : "manid2/lone-wolf-theme/docs"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 teaser                   : "post-img.jpg" # path of fallback teaser image, e.g. "teaser_default.png" in /assests/images folder
 logo                     : "lwt-logo-wolf-v1.svg" # path of logo image to display in the masthead, e.g. "site_logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute         : 200
 
 # comments settings
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#comments:
+#  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+#  disqus:
+#    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # feed
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+#atom_feed:
+#  path                   : # blank (default) uses feed.xml
 
 # site search settings
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # google
+#search                   : # true, false (default)
+#search_full_content      : # true, false (default)
+#search_provider          : # google
 
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-
+#google:
+#  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+#  instant_search         : # false (default), true
+#
 # site verifications, jekyll-seo-tag plugin
-webmaster_verifications:
-  google:  # 1234
-  bing:    # 1234
-  alexa:   # 1234
-  yandex:  # 1234
-  baidu:   # 1234
+#webmaster_verifications:
+#  google:  # 1234
+#  bing:    # 1234
+#  alexa:   # 1234
+#  yandex:  # 1234
+#  baidu:   # 1234
 
 # Analytics
-analytics:
-  provider               : "google-gtag" # false (default), "google-gtag", "custom"
-  google:
-    tracking_id          : "UA-138748532-1"
-    anonymize_ip         : # true, false (default)
+#analytics:
+#  provider               : "google-gtag" # false (default), "google-gtag", "custom"
+#  google:
+#    tracking_id          : "UA-138748532-1"
+#    anonymize_ip         : # true, false (default)
 
 # Reading Files
 include:
@@ -129,9 +128,9 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
+    #  - jekyll-remote-theme
 
-# mimic GitHub Pages with --safe
+   # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -140,7 +139,7 @@ whitelist:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
+    #  - jekyll-remote-theme
 
 # HTML Compression
 # - http://jch.penibelst.de/
