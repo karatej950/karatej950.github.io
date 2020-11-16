@@ -203,11 +203,11 @@ a h2, .card h2 {
 
     &-owner {
         @extend .py-5;
-        background: $gray-800;
+        background: #000;
     }
 
     &-copyright {
         @extend .py-3;
-        background: $gray-900;
+        background: #000;
     }
 }

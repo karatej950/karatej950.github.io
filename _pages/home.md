@@ -20,76 +20,27 @@ feature_rows:
   - title: "Books"
     url: "https://www.etsy.com/shop/ghostjazzbooks?ref=simple-shop-header-name&listing_id=876682124"
     img_path: "books.jpg"
-    img_alt: "Apps"
-  - title: ""
-    url: "/blog/"
-    img_path: "feature_rows/pexels-pixabay-blog.jpg"
-  - title: "TODO"
-    excerpt: "TODO items."
-    url: "/todo/"
-    img_path: "feature_rows/pexels-breakingpic-todo.jpg"
-    img_alt: Todo"
+    excerpt: "books and shit"
+    img_alt: "Books"
+  - title: "ebooks"
+    excerpt: "ebooks and shit"
+    url: "https://www.amazon.com/Forbes-Crawford-Richardsons/e/B08JWWHN1P?ref=sr_ntt_srch_lnk_1&qid=1605456782&sr=8-1"
+    img_path: "ebooks.jpg"
+  - title: "tapes"
+    url: "https://www.instagram.com/ghostjazztapes/?hl=en"
+    img_path: "tapes.jpg"
+    img_alt: "tapes"
+  - title: "music"
+    url: "https://www.ghostjazztapes.bandcamp.com"
+    img_path: "music.jpg"
+    img_alt: "music"
+  - title: "merch"
+    url: "https://teespring.com/stores/my-store-10310394"
+    img_path: "merch.jpg"
+    img_alt: "merch"
+  - title: "videos"
+    url: "https://www.youtube.com/channel/UCR3LNZOsgsS8J0HPmX6e98g?view_as=subscriber"
+    img_path: "videos.jpg"
+    img_alt: "videos"
 ---
-
-## Introduction
-
-Lone Wolf Theme is a simple bootstrap based jekyll theme.
-It is infamous for abstracting away the frontend code using [Bootstrap 4][bs4]
-and [Bootswatch wrappers][bootswatch] to help us focus on the
- <span class="badge badge-primary">content</span> and the
- <span class="badge badge-primary">functions</span>.
-
-Since there is no good boostrap based theme for [jekyll][jekyll]
-I have created this theme in my free time.
-To learn both the web development and contribute to open source softwares.
-
-Have used popular jekyll themes such as [minimal mistakes][min-mis].
-And I wanted to have my own theme so I can modify it to suit my needs.
-
-Bootstrap is a popular frontend framework for websites.
-It is used for consistency in the code and is easy to maintain and extend.
-Bootswatch is a wrapper theme for plain bootstrap.
-It enhances the plain bootstrap to a great extent.
-
-LWT is compatible with github pages.
-It uses [animate.css][ani-css] for animations.
-
-## Installation
-
-### Using remote theme
-
-Easiest way to use the theme if you dont want to make changes to the theme's
-code.
-
-- Add `remote_theme    : "manid2/lone-wolf-theme"` to your `_config.yml` file.
-
-### By forking the theme repository
-
-If you want to make changes to the code and to truly own the site.
-Follow the blog on [smashing magazine][sm-gh-pages] to learn about this method.
-
-### As a ruby gem
-
-When you want to host the site on any server other than the github pages
-and also to make use of plenty of jekyll plugins.
-
-- Add `gem "lone-wolf-theme"` to your `Gemfile`.
-- Update bundled gems by using `bundle` command.
-- Add `theme    : "lone-wolf-theme"` to your `_config.yml`.
-
-## Contribution
-
-Use the link to learn how to [contribute][3] to LWT.
-
-<!-- Links in the post -->
-[jekyll]: https://jekyllrb.com/
-[min-mis]: https://mmistakes.github.io/minimal-mistakes/
-[sm-gh-pages]: https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
-[bs4]: https://getbootstrap.com/
-[bootswatch]: https://bootswatch.com/
-[gh-gems]: https://pages.github.com/versions/
-[ani-css]: https://daneden.github.io/animate.css/
-
-[1]: https://manid2.github.io/lone-wolf-theme/
-[2]: https://manid2.github.io/
-[3]: {{ '/contribute/' | relative_url }}
+---
