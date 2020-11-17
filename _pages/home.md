@@ -2,8 +2,8 @@
 layout: home
 permalink: /
 
-title: "Lone Wolf Theme"
-excerpt: "A simple bootstrap based jekyll theme."
+title: "Home"
+excerpt: "Home for all things Ghost Jazz"
 action: true
 action_btn:
   - label: "Download"
@@ -31,15 +31,14 @@ feature_rows:
     img_path: "tapes.jpg"
     img_alt: "tapes"
   - title: "music"
-    url: "https://www.ghostjazztapes.bandcamp.com"
+    url: "https://ghostjazztapes.bandcamp.com"
     img_path: "music.jpg"
     img_alt: "music"
   - title: "merch"
     url: "https://teespring.com/stores/my-store-10310394"
     img_path: "merch.jpg"
     img_alt: "merch"
-  - title: "videos"
-    url: "https://www.youtube.com/channel/UCR3LNZOsgsS8J0HPmX6e98g?view_as=subscriber"
+  - url: "https://www.youtube.com/channel/UCR3LNZOsgsS8J0HPmX6e98g?view_as=subscriber"
     img_path: "videos.jpg"
     img_alt: "videos"
 ---

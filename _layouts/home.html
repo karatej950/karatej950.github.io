@@ -10,8 +10,8 @@ layout: default
   <!-- home page header -->
   <section class="home-page-header">
     <div class="container text-center">
-      <h1 class="animated fadeInDownBig">{{ page.title | default: 'HOME' }}</h1>
-      <p class="lead">{{ page.excerpt | default: 'Excerpt' }}</p>
+      <!-- <h1 class="animated fadeInDownBig">{{ page.title | default: 'HOME' }}</h1>
+      <p class="lead">{{ page.excerpt | default: 'Excerpt' }}</p> -->
     </div>
   </section>
 
@@ -38,7 +38,9 @@ layout: default
 
             <div class="shadow-sm rounded-top">
               {% if img_path %}
-                <img class="img-fluid rounded-top" src="{{ img_path | strip }}" alt="{{ img_alt | strip }}">
+	        <a href="{{ f_row.url | relative_url }}">
+                   <img class="img-fluid rounded-top" src="{{ img_path | strip }}" alt="{{ img_alt | strip }}">
+		</a>
               {% endif %}
             </div>
 
