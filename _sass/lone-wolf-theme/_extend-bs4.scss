@@ -34,7 +34,8 @@ a h2, .card h2 {
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         /*background: linear-gradient(to top, $color-bottom, $color-top);*/
 	background-image: url(../images/gjazzbanner.jpg);
-	background-size: cover;
+	/*background-size: cover;*/
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
     }
 }
