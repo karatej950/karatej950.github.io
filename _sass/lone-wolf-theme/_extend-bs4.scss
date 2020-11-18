@@ -202,8 +202,7 @@ a h2, .card h2 {
 .page-footer {
     @extend .text-white;
 
-    &-owner {
-        @extend .py-5;
+    &-owner { 
         background: #000;
     }
 
