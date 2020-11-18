@@ -44,14 +44,14 @@ layout: default
               {% endif %}
             </div>
 
-            <div class="card-body bg-light border border-light border-top-0 rounded-bottom">
+            <!-- <div class="card-body bg-light border border-light border-top-0 rounded-bottom">
               <a href="{{ f_row.url | relative_url }}">
                 <h2 class="m-0">
                   {{ f_row.title | strip | strip_html | strip_newlines | truncate: 10 }}
                 </h2>
               </a>
               <p class="card-text">{{ f_row.excerpt | strip | strip_html | strip_newlines | truncate: 200 }}</p>
-            </div>
+	    </div> -->
           </div>
         </div>
         {% endfor %}
